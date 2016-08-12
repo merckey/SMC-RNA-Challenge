@@ -8,4 +8,8 @@ This repository provides the tools for running, evaluating, validating and submi
 git clone https://github.com/merckey/SMC-RNA-Challenge.git
 cd SMC-RNA-Challenge
 bash install-ubuntu.sh
+pip install pyyaml
+python script/dream_runner.py test dryrun1 SMC-RNA-Examples/workflow/smcI
+soform-rsem-workflow.cwl isoform
+
 ```
