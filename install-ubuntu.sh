@@ -7,6 +7,7 @@ docker ps
 if [ "$?" != "0" ]; then
   sudo apt-get install -y docker.io
   sudo usermod -aG docker $USER
+  newgrp docker
 fi
 
 sudo pip install cwltool cwl-runner
