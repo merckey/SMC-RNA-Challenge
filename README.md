@@ -5,6 +5,8 @@ This repository provides the tools for running, evaluating, validating and submi
 # How to install on google cloud
 
 ```
+sudo apt-get update
+sudo apt-get install -y git
 git clone https://github.com/merckey/SMC-RNA-Challenge.git
 cd SMC-RNA-Challenge
 bash install-ubuntu.sh
