@@ -9,7 +9,6 @@ git clone https://github.com/merckey/SMC-RNA-Challenge.git
 cd SMC-RNA-Challenge
 bash install-ubuntu.sh
 pip install pyyaml
-python script/dream_runner.py test dryrun1 SMC-RNA-Examples/workflow/smcI
-soform-rsem-workflow.cwl isoform
+python script/dream_runner.py test dryrun1 SMC-RNA-Examples/workflow/smcIsoform-rsem-workflow.cwl isoform
 
 ```
